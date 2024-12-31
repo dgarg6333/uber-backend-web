@@ -7,7 +7,7 @@ const app=express();
 app.use(cors());
 
 app.get('/', (req, res)=>{
-    res.send('hello world!');
+    res.send('hell0 world!!');
 });
 
 module.exports=app;
